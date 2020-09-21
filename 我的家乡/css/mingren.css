@@ -1,0 +1,253 @@
+* { margin: 0; padding: 0; outline: 0 }
+
+
+/* links */
+a, a:visited {
+	text-decoration: none;
+	color: #2180BC;
+	background: inherit;
+}
+/* 鼠标悬停在链接上 */
+a:hover {
+	color: #67d845;
+	background: inherit;
+	
+}
+
+
+body{
+	background-color: white;
+
+}
+
+
+
+/* 让链接无下划线 */
+a{
+	text-decoration: none;
+}
+
+
+#menu{
+	width: 100%;
+	height: 50px;
+	background-color: rgb(109, 101, 101);
+	/* border-width: 1px 0.5px 1px 1px; */
+	/* border-color: rgb(236, 199, 199); */
+	/* border-style: solid; */
+	
+	
+}
+
+/* 让导航文字居中 */
+#menu ul{
+	text-align: center;
+	
+	padding: 10px 0;
+}
+
+
+
+/* 导航列表水平间距 */
+#menu ul li{
+
+	/* disply:默认。此元素会被显示为内联元素，元素前后没有换行符。 */
+	display: inline;
+
+	/* margin:设置外边距 */
+	margin: 70px; 
+}
+
+
+#menu ul li span{
+	font-family: "宋体";
+	font-size: 25px;
+	color: whitesmoke;
+
+}
+
+
+
+
+/* 文天祥 */
+
+.underline{
+	width: 50px;
+    height: 2px;
+    
+
+}
+
+#wentianxiang{
+	margin-top: 100px;
+}
+
+#wentianxiang-title h2{
+    font-family: "微软雅黑";
+	font-size: 30px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+#wentianxiang-title{
+	text-align: center;
+}
+
+#wen-img img{
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+
+#wen-table td{
+    padding: 30px;
+    width: 400px;
+}
+
+#wen-introduce ul li{
+    line-height: 50px;
+    font-size: 20px;
+    font-family: "微软雅黑";
+}
+
+#wen{
+    text-align: center;
+}
+
+
+/* 欧阳修 */
+
+#ouyangxiu{
+	margin-top: 100px;
+}
+
+#ouyangxiu-title h2{
+    font-family: "微软雅黑";
+	font-size: 30px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+#ouyangxiu-title{
+	text-align: center;
+}
+
+#ou-img img{
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+
+#ou-table td{
+    padding: 30px;
+    width: 400px;
+}
+
+#ou-introduce ul li{
+    line-height: 50px;
+    font-size: 20px;
+    font-family: "微软雅黑";
+}
+
+#ou-introduce{
+    text-align: center;
+}
+
+#ou{
+    text-align: center;
+}
+
+
+/* 杨万里 */
+
+#yangwanli{
+	margin-top: 100px;
+}
+
+#yangwanli-title h2{
+    font-family: "微软雅黑";
+	font-size: 30px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+#yangwanli-title{
+	text-align: center;
+}
+
+#yang-img img{
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+
+#yang-table td{
+    padding: 30px;
+    width: 400px;
+}
+
+#yang-introduce ul li{
+    line-height: 50px;
+    font-size: 20px;
+    font-family: "微软雅黑";
+}
+
+#yang-introduce{
+    text-align: center;
+}
+
+#yang{
+    text-align: center;
+}
+
+
+
+/* 页尾 */
+
+#footer{
+    /* text-align: center; */
+    background-color: rgb(221, 218, 218);
+    margin-top: 50px;
+}
+
+#to-top{
+    /* padding：内边距 */
+    padding-top: 50px; 
+    margin-left: 200px;
+}
+
+
+
+
+
+#line-1, #line-2, #review, #statement{
+    margin-top: 30px;
+    margin-left: 200px;
+}
+
+
+#line-1 hr{
+
+    margin-right: 250px;
+    border-color: rgb(75, 72, 72);
+    
+}
+
+
+#line-2 hr{
+ 
+    margin-right: 250px;
+    border-color: rgb(75, 72, 72);
+    
+}
+
+
+
+#statement{
+
+    padding-bottom: 30px;
+
+}

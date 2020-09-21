@@ -1,0 +1,311 @@
+* { margin: 0; padding: 0; outline: 0 }
+
+
+/* links */
+a, a:visited {
+	
+	/* 让链接无下划线 */
+	text-decoration: none;
+	color: #2180BC;
+	background: inherit;
+}
+/* 鼠标悬停在链接上 */
+a:hover {
+	color: #67d845;
+	background: inherit;
+	
+}
+
+
+body{
+	background-color: white;
+
+}
+
+
+
+#menu{
+	width: 100%;
+	height: 50px;
+	background-color: rgb(109, 101, 101);
+	/* border-width: 1px 0.5px 1px 1px; */
+	/* border-color: rgb(236, 199, 199); */
+	/* border-style: solid; */
+	
+	
+}
+
+/* 让导航文字居中 */
+#menu ul{
+	text-align: center;
+	
+	padding: 10px 0;
+}
+
+
+
+/* 导航列表水平间距 */
+#menu ul li{
+
+	/* disply:默认。此元素会被显示为内联元素，元素前后没有换行符。 */
+	display: inline;
+
+	/* margin:设置外边距 */
+	margin: 70px; 
+
+	
+}
+
+
+#menu ul li a{
+	font-family: "宋体";
+	font-size: 25px;
+	color:white;
+
+}
+
+
+/* 吉泰民安 */
+
+#ji-title{
+	margin-top: 50px;
+	text-align: center;
+	
+}
+
+#ji-title h2{
+	font-size: 30px;
+}
+
+
+
+#lubotu{
+	margin-top: 50px;
+	text-align: center;
+}
+
+
+
+#imgs li img{
+	width: 70%;
+	height: 600px;
+	/* margin-left: 200px;
+	margin-right: 200px; */
+	/* border-width: 0.5px 1px 1px 1px;
+	border-color: rgb(236, 199, 199);
+	border-style: solid; */
+	
+}
+
+
+#tuijian_xinxi{
+	text-align: center;
+	/* width: 100; */
+}
+
+#tuijian_xinxi h2{
+	font-family: "微软雅黑";
+	font-size: 30px;
+	/* text-align: center; */
+	margin-top: 50px;
+}
+
+.underline{
+	width: 50px;
+	height: 2px;
+
+}
+
+
+#tuijian_img-1{
+	
+	margin-top: 50px;
+	text-align: center;
+
+	
+	
+
+}
+
+
+/* 吉州窑和白鹭洲书院图片样式 */
+
+/* 图片盒子外边距 水平排列 */
+#tuijian_img-1 div{
+	display: inline;
+	margin: 8px;
+	
+	
+}
+
+
+
+#left, #right, #yangshimu, #jinggangshan_jingsheng, #meibei-img{
+	position: relative;
+	
+}
+
+#left div{
+	position: absolute;
+	bottom: 8px;
+	right: 16px;
+	font-family: "微软雅黑";
+	font-size: 20px;
+	color: white;
+	font-weight: 600;
+}
+
+#left img{
+	height: 350px;
+	width: 350px;	
+	
+}
+
+
+#right div{
+	position: absolute;
+	bottom: 8px;
+	left: 16px;
+	font-family: "微软雅黑";
+	font-size: 20px;
+	color: white;
+	font-weight: 600;
+}
+
+#right img{
+	
+	height: 350px;
+	width: 750px;
+	
+}
+
+
+
+
+/* 羊狮慕图片样式 */
+#tuijian_img-2{
+    text-align: center;
+    margin-top: 10px;
+}
+
+#table-img{
+    margin:0px auto;
+}
+
+#table-img td{
+    padding: 8px;
+}
+
+
+#yangshimu div{
+	position: absolute;
+	bottom: 15px;
+	left: 120px;
+	font-family: "微软雅黑";
+	font-size: 20px;
+	color: white;
+	font-weight: 600;
+}
+
+
+#yangshimu img{
+	height: 350px;
+	width: 750px;
+}
+
+#jinggangshan_jingsheng img{
+	height: 350px;
+	width: 750px;
+}
+
+
+/* 井冈山图片样式 */
+#jinggangshan_jingsheng div{
+	position: absolute;
+	bottom: 15px;
+	left: 120px;
+	font-family: "微软雅黑";
+	font-size: 20px;
+	color: white;
+	font-weight: 600;
+}
+
+
+/* 渼陂古村图片样式 */
+#meibei{
+	height: 710px;
+	width: 350px;
+}
+
+
+
+#meibei-img div{
+	position: absolute;
+	bottom: 15px;
+	left: 20px;
+	font-family: "微软雅黑";
+	font-size: 20px;
+	color: white;
+	font-weight: 600;
+} 
+
+
+
+
+/* 轮播图效果样式 */
+
+.show{  	  
+	display:block;	  
+}
+.hide{
+	display:none;  	  
+}  	 
+
+
+
+/* 页脚样式 */
+
+#footer{
+    /* text-align: center; */
+    background-color: rgb(221, 218, 218);
+    margin-top: 50px;
+}
+
+#to-top{
+    /* padding：内边距 */
+    padding-top: 50px; 
+    margin-left: 250px;
+}
+
+
+#line-1, #line-2, #review, #statement{
+    margin-top: 30px;
+    margin-left: 250px;
+}
+
+#line-1 hr{
+
+    margin-right: 250px;
+    border-color: rgb(75, 72, 72);
+    
+}
+
+
+#line-2 hr{
+ 
+    margin-right: 250px;
+    border-color: rgb(75, 72, 72);
+    
+}
+
+#review{
+   
+}
+
+
+#statement{
+
+    padding-bottom: 30px;
+
+}
+

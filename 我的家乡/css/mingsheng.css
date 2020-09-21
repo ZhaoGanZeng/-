@@ -1,0 +1,504 @@
+* { margin: 0; padding: 0; outline: 0 }
+
+
+
+/* links */
+a, a:visited {
+	text-decoration: none;
+	color: #2180BC;
+	background: inherit;
+}
+/* 鼠标悬停在链接上 */
+a:hover {
+	color: #67d845;
+	background: inherit;
+	
+}
+
+
+body{
+	background-color: white;
+
+}
+
+
+
+
+/* 让链接无下划线 */
+a{
+	text-decoration: none;
+}
+
+
+#menu{
+	width: 100%;
+	height: 50px;
+	background-color: rgb(109, 101, 101);
+	/* border-width: 1px 0.5px 1px 1px; */
+	/* border-color: rgb(236, 199, 199); */
+	/* border-style: solid; */
+	
+	
+}
+
+/* 让导航文字居中 */
+#menu ul{
+	text-align: center;
+	
+	padding: 10px 0;
+}
+
+
+
+/* 导航列表水平间距 */
+#menu ul li{
+
+	/* disply:默认。此元素会被显示为内联元素，元素前后没有换行符。 */
+	display: inline;
+
+	/* margin:设置外边距 */
+	margin: 70px; 
+}
+
+
+#menu ul li span{
+	font-family: "宋体";
+	font-size: 25px;
+	color: whitesmoke;
+
+}
+
+
+
+#imgs li img{
+    /* width: 60%; */
+    height: 400px;
+    width: 600px;
+}
+
+#imgs li{
+    /* 去除无序列表的点点 */
+    list-style: none;
+}
+
+
+
+/* 白鹭洲学院图片样式 */
+
+#shu{
+	margin-top: 50px;
+}
+
+#shuyuan-h3{
+	color: rgb(78, 77, 77);
+	margin-left: 250px;
+}
+
+
+#shuyuan{
+	margin-top: 100px;
+}
+
+#shuyaun_introduce{
+	width: 700px;
+	margin-left: 270px;
+	margin-top: 30px;
+}
+
+
+#shuyuan_introduce p{
+	color: rgb(97, 95, 95);
+	width: 800px;
+	margin-left: 270px;
+	margin-top: 30px;
+	text-indent: 2em;
+}
+
+
+#shuyaun{
+
+}
+
+
+
+#shuyuan{
+    text-align: center;
+}
+
+.underline{
+	width: 50px;
+    height: 2px;
+    
+
+}
+
+#shuyuan h2{
+    font-family: "微软雅黑";
+	font-size: 30px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+#lunbotu{
+    margin-top: 30px;
+	margin-left: 200px;
+
+}
+
+#bailuzhou td{
+	padding: 30px;
+}
+
+
+#shuyuan_indtroduce{
+    height: 400px;
+    width: 600px;
+    
+}
+
+#shuyuan_introduce ul li{
+    line-height: 80px;
+    font-size: 20px;
+    font-family: "微软雅黑";
+}
+
+
+
+/* 吉州窑图片以及描述 */
+
+
+#ji{
+	margin-top: 50px;
+}
+
+#jizhouyao-h3{
+	color: rgb(78, 77, 77);
+	margin-left: 200px;
+}
+
+
+#jizhouyao{
+	margin-top: 100px;
+}
+
+#jizhouyao_introduce{
+	width: 700px;
+	/* margin-left: 270px; */
+	margin-top: 30px;
+}
+
+
+#jizhouyao_introduce p{
+	color: rgb(97, 95, 95);
+	width: 800px;
+	margin-left: 220px;
+	margin-top: 30px;
+	text-indent: 2em;
+}
+
+
+#img-1 img{
+    height: 200px;
+    width: 300px;
+}
+
+#img-1{
+	margin-left: 200px;
+	margin-top: 50px;
+}
+
+#jizhouyao-title h2{
+    font-family: "微软雅黑";
+	font-size: 30px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+#jizhouyao-title{
+	text-align: center;
+}
+
+
+.jizhouyao-1{
+    display: inline-block;
+    margin: 20px;
+}
+
+#jizhouyao-1 ul li{
+	padding-top: 50px;
+}
+
+
+#tianmu img{
+	height: 200px;
+	width: 300px;
+	margin-right: 200px;
+}
+
+#tiehua img{
+	height: 200px;
+	width: 300px;
+}
+
+#tiehua-text{
+	margin-left: 200px;
+}
+
+
+#daimao img{
+	height: 200px;
+	width: 300px;
+}
+
+#daimao-text{
+	margin-right: 200px;
+}
+
+
+#jizhouyao-table td{
+    padding: 8px;
+}
+
+
+/* 渼陂古村 */
+
+
+#meibei-h3{
+	color: rgb(78, 77, 77);
+	margin-left: 250px;
+	
+}
+
+
+#meibei{
+	margin-top: 100px;
+}
+
+#meibei_introduce {
+	width: 700px;
+	margin-left: 270px;
+	margin-top: 30px;
+}
+
+
+#meibei_introduce p{
+	color: rgb(97, 95, 95);
+	text-indent: 2em;
+}
+
+#meibei-title h2{
+    font-family: "微软雅黑";
+	font-size: 30px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+#meibei-title{
+	text-align: center;
+}
+
+
+#meibei-table img{
+	height: 200px;
+	width: 300px;
+}
+
+#meibei-table{
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+#meibei-table td{
+	padding: 10px;
+}
+
+
+
+
+/* 井冈山 */
+
+#jing{
+	margin-top: 50px;
+}
+
+#jinggangshan-h3{
+	color: rgb(78, 77, 77);
+	margin-left: 15px;
+}
+
+
+#jinggangshan{
+	margin-top: 100px;
+}
+
+#jinggangshan_introduce{
+	width: 700px;
+	/* margin-left: 270px; */
+	margin-top: 30px;
+}
+
+
+#jinggangshan_introduce p{
+	color: rgb(97, 95, 95);
+	width: 800px;
+	margin-left: 20px;
+	margin-top: 30px;
+	text-indent: 2em;
+}
+
+
+
+#jingangshan{
+	margin-top: 100px;
+
+}
+
+#jingangshan-title h2{
+    font-family: "微软雅黑";
+	font-size: 30px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+#jingangshan-title{
+	text-align: center;
+}
+
+#jin-1 img{
+	height: 400px;
+	width: 100%
+	
+}
+
+#jin-2 img{
+	height: 400px;
+	width: 100%
+}
+
+#jin{
+	margin-top: 50px;
+}
+
+#jin-table{
+	margin: 0 auto;
+}
+
+
+/* 羊狮慕 */
+
+#yang-jianjie{
+	margin-top: 50px;
+}
+
+#yangshimu-h3{
+	color: rgb(78, 77, 77);
+	margin-left: 200px;
+}
+
+
+#yangshimu{
+	margin-top: 100px;
+}
+
+#yangshimu_introduce{
+	width: 700px;
+	/* margin-left: 270px; */
+	margin-top: 30px;
+}
+
+
+#yangshimu_introduce p{
+	color: rgb(97, 95, 95);
+	width: 800px;
+	margin-left: 210px;
+	margin-top: 30px;
+	text-indent: 2em;
+}
+
+
+
+#yangshimu{
+	margin-top: 100px;
+
+}
+
+#yangshimu-title h2{
+    font-family: "微软雅黑";
+	font-size: 30px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+#yangshimu-title{
+	text-align: center;
+}
+
+
+.yang img{
+	height: 300px;
+	width: 400px;
+}
+
+#yang-table{
+	margin: 0 auto;
+}
+
+
+#yang-table td{
+	padding: 10px;
+}
+
+#yang{
+	margin-top: 50px;
+}
+
+
+
+/* 页尾 */
+#footer{
+    /* text-align: center; */
+    background-color: rgb(221, 218, 218);
+    margin-top: 50px;
+}
+
+#to-top{
+    /* padding：内边距 */
+    padding-top: 50px; 
+    margin-left: 200px;
+}
+
+
+
+
+
+#line-1, #line-2, #review, #statement{
+    margin-top: 30px;
+    margin-left: 200px;
+}
+
+
+#line-1 hr{
+
+    margin-right: 250px;
+    border-color: rgb(75, 72, 72);
+    
+}
+
+
+#line-2 hr{
+ 
+    margin-right: 250px;
+    border-color: rgb(75, 72, 72);
+    
+}
+
+#review{
+   
+}
+
+
+#statement{
+
+    padding-bottom: 30px;
+
+}
